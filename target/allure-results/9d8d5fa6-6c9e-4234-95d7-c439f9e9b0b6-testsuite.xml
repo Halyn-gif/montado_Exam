@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1644949566787" stop="1644949630818" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>User Login</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1644949567271" stop="1644949611705" status="failed">
+            <name>R001 Login with invalid Login</name>
+            <title>R001 Login with invalid Login</title>
+            <description type="text"></description>
+            <failure>
+                <message>AssertionError: can not work with elementorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":".//*[@id='userSigninLogin']"}
+  (Session info: chrome=98.0.4758.82)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP', ip: '192.168.43.219', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\dolin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53592}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ac20024c9b58e0955f4d29b2244ed35f
+*** Element info: {Using=xpath, value=.//*[@id='userSigninLogin']}</message>
+                <stack-trace>java.lang.AssertionError: can not work with elementorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":".//*[@id='userSigninLogin']"}
+  (Session info: chrome=98.0.4758.82)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP', ip: '192.168.43.219', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\dolin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53592}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ac20024c9b58e0955f4d29b2244ed35f
+*** Element info: {Using=xpath, value=.//*[@id='userSigninLogin']}&#13;
+	at org.junit.Assert.fail(Assert.java:88)&#13;
+	at pages.ParentPage.writeErrorAndStopTest(ParentPage.java:71)&#13;
+	at pages.ParentPage.enterTextToElement(ParentPage.java:31)&#13;
+	at pages.LoginPage.enterEmailInSignIn(LoginPage.java:94)&#13;
+	at StepDefinition.LoginPage_StepDefinition.user_enters_Wrong_login_login_into_Login_input_on_Login_page(LoginPage_StepDefinition.java:19)&#13;
+	at ✽.When User enters 'login' login into 'Login' input on 'Login' page(C:/viviennsabo/src/test/resources/loginTest/login.feature:8)&#13;
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1644949593164" stop="1644949606330" status="passed">
+                    <name>Given User opens 'Login' page</name>
+                    <title>Given User opens 'Login' page</title>
+                </step>
+                <step start="1644949606332" stop="1644949609723" status="failed">
+                    <name>When User enters 'login' login into 'Login' input on 'Login' page</name>
+                    <title>When User enters 'login' login into 'Login' input on 'Login' page</title>
+                </step>
+                <step start="1644949609733" stop="1644949609752" status="canceled">
+                    <name>And User enters 'pass' passWord into 'PassWord' input on 'Login' page</name>
+                    <title>And User enters 'pass' passWord into 'PassWord' input on 'Login' page</title>
+                </step>
+                <step start="1644949609755" stop="1644949609756" status="canceled">
+                    <name>And User click on 'SingIn' button on 'Login' page</name>
+                    <title>And User click on 'SingIn' button on 'Login' page</title>
+                </step>
+                <step start="1644949609758" stop="1644949609769" status="canceled">
+                    <name>Then User sees alert message with text ''</name>
+                    <title>Then User sees alert message with text ''</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="R001 Login with invalid Login"/>
+                <label name="feature" value="User Login"/>
+                <label name="host" value="LAPTOP"/>
+                <label name="thread" value="9096@LAPTOP.pool-2-thread-2(13)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1644949611706" stop="1644949630812" status="failed">
+            <name>R001 Login with invalid Login</name>
+            <title>R001 Login with invalid Login</title>
+            <description type="text"></description>
+            <failure>
+                <message>AssertionError: can not work with elementorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":".//*[@id='userSigninLogin']"}
+  (Session info: chrome=98.0.4758.82)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP', ip: '192.168.43.219', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\dolin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53638}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ce6c8cdb41a7a5832f6dd2a94528ef66
+*** Element info: {Using=xpath, value=.//*[@id='userSigninLogin']}</message>
+                <stack-trace>java.lang.AssertionError: can not work with elementorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":".//*[@id='userSigninLogin']"}
+  (Session info: chrome=98.0.4758.82)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP', ip: '192.168.43.219', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\dolin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53638}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ce6c8cdb41a7a5832f6dd2a94528ef66
+*** Element info: {Using=xpath, value=.//*[@id='userSigninLogin']}&#13;
+	at org.junit.Assert.fail(Assert.java:88)&#13;
+	at pages.ParentPage.writeErrorAndStopTest(ParentPage.java:71)&#13;
+	at pages.ParentPage.enterTextToElement(ParentPage.java:31)&#13;
+	at pages.LoginPage.enterEmailInSignIn(LoginPage.java:94)&#13;
+	at StepDefinition.LoginPage_StepDefinition.user_enters_Wrong_login_login_into_Login_input_on_Login_page(LoginPage_StepDefinition.java:19)&#13;
+	at ✽.When User enters '' login into 'Login' input on 'Login' page(C:/viviennsabo/src/test/resources/loginTest/login.feature:8)&#13;
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1644949617041" stop="1644949626465" status="passed">
+                    <name>Given User opens 'Login' page</name>
+                    <title>Given User opens 'Login' page</title>
+                </step>
+                <step start="1644949626466" stop="1644949629546" status="failed">
+                    <name>When User enters '' login into 'Login' input on 'Login' page</name>
+                    <title>When User enters '' login into 'Login' input on 'Login' page</title>
+                </step>
+                <step start="1644949629546" stop="1644949629548" status="canceled">
+                    <name>And User enters '' passWord into 'PassWord' input on 'Login' page</name>
+                    <title>And User enters '' passWord into 'PassWord' input on 'Login' page</title>
+                </step>
+                <step start="1644949629550" stop="1644949629555" status="canceled">
+                    <name>And User click on 'SingIn' button on 'Login' page</name>
+                    <title>And User click on 'SingIn' button on 'Login' page</title>
+                </step>
+                <step start="1644949629556" stop="1644949629557" status="canceled">
+                    <name>Then User sees alert message with text ''</name>
+                    <title>Then User sees alert message with text ''</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="R001 Login with invalid Login"/>
+                <label name="feature" value="User Login"/>
+                <label name="host" value="LAPTOP"/>
+                <label name="thread" value="9096@LAPTOP.pool-2-thread-2(13)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="User Login"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

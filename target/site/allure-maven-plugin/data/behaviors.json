@@ -1,0 +1,25 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "User Login",
+    "children" : [ {
+      "name" : "R001 Login with invalid Login",
+      "children" : [ {
+        "name" : "R001 Login with invalid Login",
+        "uid" : "fae720e9e061bafb",
+        "parentUid" : "e04563de71f46fabbd59cceddd49288a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1644949611706,
+          "stop" : 1644949630812,
+          "duration" : 19106
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e04563de71f46fabbd59cceddd49288a"
+    } ],
+    "uid" : "96f1ef6a59ed61dd3c0e07ef4b580c39"
+  } ]
+}

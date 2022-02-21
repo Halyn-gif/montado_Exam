@@ -1,0 +1,166 @@
+{
+  "uid" : "fae720e9e061bafb",
+  "name" : "R001 Login with invalid Login",
+  "fullName" : "User Login.R001 Login with invalid Login",
+  "historyId" : "9eee7a3a1360d011cf5dc5a0e2a2e4a4",
+  "time" : {
+    "start" : 1644949611706,
+    "stop" : 1644949630812,
+    "duration" : 19106
+  },
+  "description" : "null\n\nnull",
+  "descriptionHtml" : "<p>null</p>\n<p>null</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: can not work with elementorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*[@id='userSigninLogin']\"}\n  (Session info: chrome=98.0.4758.82)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'LAPTOP', ip: '192.168.43.219', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\\Users\\dolin\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53638}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: ce6c8cdb41a7a5832f6dd2a94528ef66\n*** Element info: {Using=xpath, value=.//*[@id='userSigninLogin']}",
+  "statusTrace" : "java.lang.AssertionError: can not work with elementorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*[@id='userSigninLogin']\"}\n  (Session info: chrome=98.0.4758.82)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'LAPTOP', ip: '192.168.43.219', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\\Users\\dolin\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53638}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: ce6c8cdb41a7a5832f6dd2a94528ef66\n*** Element info: {Using=xpath, value=.//*[@id='userSigninLogin']}\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat pages.ParentPage.writeErrorAndStopTest(ParentPage.java:71)\r\n\tat pages.ParentPage.enterTextToElement(ParentPage.java:31)\r\n\tat pages.LoginPage.enterEmailInSignIn(LoginPage.java:94)\r\n\tat StepDefinition.LoginPage_StepDefinition.user_enters_Wrong_login_login_into_Login_input_on_Login_page(LoginPage_StepDefinition.java:19)\r\n\tat ✽.When User enters '' login into 'Login' input on 'Login' page(C:/viviennsabo/src/test/resources/loginTest/login.feature:8)\r\n",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: can not work with elementorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*[@id='userSigninLogin']\"}\n  (Session info: chrome=98.0.4758.82)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'LAPTOP', ip: '192.168.43.219', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\\Users\\dolin\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53638}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: ce6c8cdb41a7a5832f6dd2a94528ef66\n*** Element info: {Using=xpath, value=.//*[@id='userSigninLogin']}",
+    "statusTrace" : "java.lang.AssertionError: can not work with elementorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*[@id='userSigninLogin']\"}\n  (Session info: chrome=98.0.4758.82)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'LAPTOP', ip: '192.168.43.219', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\\Users\\dolin\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53638}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: ce6c8cdb41a7a5832f6dd2a94528ef66\n*** Element info: {Using=xpath, value=.//*[@id='userSigninLogin']}\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat pages.ParentPage.writeErrorAndStopTest(ParentPage.java:71)\r\n\tat pages.ParentPage.enterTextToElement(ParentPage.java:31)\r\n\tat pages.LoginPage.enterEmailInSignIn(LoginPage.java:94)\r\n\tat StepDefinition.LoginPage_StepDefinition.user_enters_Wrong_login_login_into_Login_input_on_Login_page(LoginPage_StepDefinition.java:19)\r\n\tat ✽.When User enters '' login into 'Login' input on 'Login' page(C:/viviennsabo/src/test/resources/loginTest/login.feature:8)\r\n",
+    "steps" : [ {
+      "name" : "Given User opens 'Login' page",
+      "time" : {
+        "start" : 1644949617041,
+        "stop" : 1644949626465,
+        "duration" : 9424
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When User enters '' login into 'Login' input on 'Login' page",
+      "time" : {
+        "start" : 1644949626466,
+        "stop" : 1644949629546,
+        "duration" : 3080
+      },
+      "status" : "failed",
+      "statusMessage" : "java.lang.AssertionError: can not work with elementorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*[@id='userSigninLogin']\"}\n  (Session info: chrome=98.0.4758.82)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'LAPTOP', ip: '192.168.43.219', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\\Users\\dolin\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53638}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: ce6c8cdb41a7a5832f6dd2a94528ef66\n*** Element info: {Using=xpath, value=.//*[@id='userSigninLogin']}\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat pages.ParentPage.writeErrorAndStopTest(ParentPage.java:71)\r\n\tat pages.ParentPage.enterTextToElement(ParentPage.java:31)\r\n\tat pages.LoginPage.enterEmailInSignIn(LoginPage.java:94)\r\n\tat StepDefinition.LoginPage_StepDefinition.user_enters_Wrong_login_login_into_Login_input_on_Login_page(LoginPage_StepDefinition.java:19)\r\n\tat ✽.When User enters '' login into 'Login' input on 'Login' page(C:/viviennsabo/src/test/resources/loginTest/login.feature:8)\r\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "And User enters '' passWord into 'PassWord' input on 'Login' page",
+      "time" : {
+        "start" : 1644949629546,
+        "stop" : 1644949629548,
+        "duration" : 2
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And User click on 'SingIn' button on 'Login' page",
+      "time" : {
+        "start" : 1644949629550,
+        "stop" : 1644949629555,
+        "duration" : 5
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then User sees alert message with text ''",
+      "time" : {
+        "start" : 1644949629556,
+        "stop" : 1644949629557,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "User Login"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "R001 Login with invalid Login"
+  }, {
+    "name" : "thread",
+    "value" : "9096@LAPTOP.pool-2-thread-2(13)"
+  }, {
+    "name" : "suite",
+    "value" : "User Login"
+  }, {
+    "name" : "testClass",
+    "value" : "User Login"
+  }, {
+    "name" : "testMethod",
+    "value" : "R001 Login with invalid Login"
+  }, {
+    "name" : "package",
+    "value" : "User Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b7a2ad8dec9fb731",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: can not work with elementorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//*[@id='userSigninLogin']\"}\n  (Session info: chrome=98.0.4758.82)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'LAPTOP', ip: '192.168.43.219', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\\Users\\dolin\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53592}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: ac20024c9b58e0955f4d29b2244ed35f\n*** Element info: {Using=xpath, value=.//*[@id='userSigninLogin']}",
+      "time" : {
+        "start" : 1644949567271,
+        "stop" : 1644949611705,
+        "duration" : 44434
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "fae720e9e061bafb.json",
+  "parameterValues" : [ ]
+}

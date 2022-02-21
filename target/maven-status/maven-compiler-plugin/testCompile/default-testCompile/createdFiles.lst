@@ -1,0 +1,12 @@
+loginTest\LoginTestWithPageObject.class
+baseTest\BaseTest.class
+Parallel01IT.class
+RunCucumberTest.class
+registrValidTest\RegistrValidTest.class
+addToCartTest\AddToCartTest.class
+apiTests\CreatePostByApiTest.class
+StepDefinition\LoginPage_StepDefinition.class
+loginTest\InvalidLoginTest.class
+StepDefinition\Hooks.class
+loginTest\LoginTest.class
+apiTests\ApiTests.class

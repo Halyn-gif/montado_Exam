@@ -1,0 +1,21 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "User Login",
+    "children" : [ {
+      "name" : "R001 Login with invalid Login",
+      "uid" : "fae720e9e061bafb",
+      "parentUid" : "1c2d42d6662bffb2587b0650e0e4d09e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1644949611706,
+        "stop" : 1644949630812,
+        "duration" : 19106
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "1c2d42d6662bffb2587b0650e0e4d09e"
+  } ]
+}

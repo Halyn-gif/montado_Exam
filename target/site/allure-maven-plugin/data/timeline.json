@@ -1,0 +1,25 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP",
+    "children" : [ {
+      "name" : "9096@LAPTOP.pool-2-thread-2(13)",
+      "children" : [ {
+        "name" : "R001 Login with invalid Login",
+        "uid" : "fae720e9e061bafb",
+        "parentUid" : "956b73d5e2686610ec2dc37a5238fc9e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1644949611706,
+          "stop" : 1644949630812,
+          "duration" : 19106
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "956b73d5e2686610ec2dc37a5238fc9e"
+    } ],
+    "uid" : "47fe4d4376b71348ca69d4b0e2ef318d"
+  } ]
+}
